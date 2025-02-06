@@ -3,6 +3,6 @@
 
 <h2>Content</h2>
 -- Linear regression<br>
-  - using small 2D dataset to compare results from fitting via Normal equation and Gradient descent
+----- using small 2D dataset to compare results from fitting via Normal equation and Gradient descent
 
 
