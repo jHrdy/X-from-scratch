@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# eucleif distatnce (could me altered to any desired metric)
+# eucleid distatnce (could me altered to any desired metric)
 def dist(ptA : np.array, ptB : np.array) -> float:
     return np.linalg.norm(ptA-ptB)
 
