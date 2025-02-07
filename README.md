@@ -4,11 +4,14 @@
 \section{Linear Regression}
 Code compares approaches to calculate parameters of linear regression. Small dataset with visible linear dependency between variables covers years of experience against salary. Code firstly calculates parameters using Normal equation (formula derived from MLE) also known as Least square method (loss function is sum of squared residuals). If the Gauss-Markov assumtions are met, the Linear regression model is BLUE (best linear unbiased estimate). Code focuses on calculating the parameters and thus doesn't perform any statistical test to ensure all 4 of Gauss-Markov assumtions are met as it is not it's subject.
 
-Code output
-![image](https://github.com/user-attachments/assets/a0660b1b-77e3-4bc7-8efa-41605a3e5f6f)
+Code output:
+
+![image](https://github.com/user-attachments/assets/a0660b1b-77e3-4bc7-8efa-41605a3e5f6f)\\
+
 Graph comparing normal eq. fit with Gradient descent after 25 epochs.
 
-![image](https://github.com/user-attachments/assets/8708890f-c2f3-4c4e-b6c4-c312bf379289)
+![image](https://github.com/user-attachments/assets/8708890f-c2f3-4c4e-b6c4-c312bf379289)\\
+
 Graph comparing Gradient descent results after more epochs.
 
 Code also outputs loss graph over epochs.
