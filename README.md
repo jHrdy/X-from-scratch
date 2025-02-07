@@ -15,7 +15,7 @@ Graph comparing normal eq. fit with Gradient descent after 25 epochs.
 Graph comparing Gradient descent results after more epochs.
 
 Code also outputs loss graph over epochs.
-Lastly for comparison:
+Lastly for comparison:<br>
 **Residuals Normal eq.: 938128551.67<br>
 Residuals GD (250 epochs): 2219381293.13<br>
 Residuals GD (5000 epochs): 938128554.02**
