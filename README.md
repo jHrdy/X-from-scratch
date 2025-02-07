@@ -6,11 +6,17 @@ Code compares approaches to calculate parameters of linear regression. Small dat
 <br>
 <br>
 Code output:<br>
+<br>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/a0660b1b-77e3-4bc7-8efa-41605a3e5f6f" width="50%">
+<br>
 <br>
 Graph comparing normal eq. fit with Gradient descent after 25 epochs.
 <br>
+<br>
 <img src="https://github.com/user-attachments/assets/8708890f-c2f3-4c4e-b6c4-c312bf379289" width="50%">
+</p>
+<br>
 <br>
 Graph comparing Gradient descent results after more epochs.
 
