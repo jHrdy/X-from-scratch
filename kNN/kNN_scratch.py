@@ -1,11 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# eucleid distatnce (could me altered to any desired metric)
+# eucleid distatnce (could be altered to any desired metric)
 def dist(ptA : np.array, ptB : np.array) -> float:
     return np.linalg.norm(ptA-ptB)
 
-# alternative approach to finding nearest points
+# alternative approach to finding nearest points 
+# OVERCOMPLICATED AND UNNECESSARY (just for the demonstration - see correct function below) 
 def get_neighbors_alternative(new_point : np.array, pts : np.array, k : int) -> list:
     temp_dict = {}
     neigh = []
@@ -24,7 +25,7 @@ def get_neighbors(new_point : np.array, pts : np.array, k : int) -> list:
     return neigh[:k]
 
 # function that classifies neighbors 
-# (implemented this way due to charaacter of the toy dataset)
+# (implemented this way due to character of the toy dataset)
 def classify(fruit : str, neigh : list) -> bool:
     classes = {'apple' : 0, 'peach' : 0, 'pear' : 0}
     for n in neigh:
@@ -100,7 +101,8 @@ if __name__ == '__main__':
     performance = []
     while i <= 19:
         classify_test_data(k=i)
-        # performence is measured as percentage of incorrect guesses
+        # performence is measured as percentage of incorrect guesses 
+        # (may be contraintuitive but is implemented due to similarity to loss minimizing)
         performance.append(1-correct/(correct+incorrect))
         correct = 0
         incorrect = 0
